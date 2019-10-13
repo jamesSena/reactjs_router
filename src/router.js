@@ -6,8 +6,10 @@ const Routes = ()=>
 {   
     return(
         <BrowserRouter>
-            <Route exact path="/" component={Home}/>
-            <Route exact path="/sobre" component={Sobre}/>
+            <Switch>
+                <Route exact path="/" component={Home}/>
+                <Route exact path="/sobre" component={Sobre}/>
+            </Switch>
         </BrowserRouter>
     );
 }
