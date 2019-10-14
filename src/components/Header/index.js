@@ -5,12 +5,8 @@ import './index.css';
 class Header extends Component{
   render(){
     return (
-      <div className="container">
-        Meu Header - 
+      <div className="container-header">
         <Link to="/">Ir para Home </Link>
-        -
-        <Link to="/sobre">Ir para Sobre </Link>
-
         <hr/>
      </div>
     );
