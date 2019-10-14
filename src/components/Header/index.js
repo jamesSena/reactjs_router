@@ -1,14 +1,14 @@
 import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
-import './index.css';
+import {Container} from '../../styles.js';
 
 class Header extends Component{
   render(){
     return (
-      <div className="container-header">
-        <Link to="/">Ir para Home </Link>
+      <Container>
+          <Link to="/">Ir para Home </Link>
         <hr/>
-     </div>
+     </Container>
     );
   }
 }
