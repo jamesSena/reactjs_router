@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom';
 class Sobre extends Component{
   render(){
     return (
-      <div className="Sobre-container">
+      <div className="Sobre-container" id="Sobre">
           Sobre
           <Link to="/">Ir para Home </Link>
 

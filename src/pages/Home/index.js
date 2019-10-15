@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
-import './index.css'
+import './index.css';
+import Sobre from '../Sobre';
+
 class Home extends Component{
   
   constructor(props){
@@ -39,6 +41,7 @@ loadFilmes(){
             )
           })}
         </div>
+        <Sobre/>
       </div>
     );
   }
